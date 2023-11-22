@@ -1,0 +1,103 @@
+@charset "utf-8";
+.contenedor_principal .cabecera {
+    width: 100%;
+    height: 80px;
+    min-width: 0px;
+    background-color: #FF0004;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30pt;
+    padding-top: 15px;
+    border-radius: 8px;
+}
+.contenedor_principal .menu {
+    width: 100%;
+    height: 40px;
+    background-color: #020202;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20pt;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-top: 4px;
+}
+.contenedor_principal .menu_lateral video {
+    width: 90%;
+    height: 90%;
+    margin-top: 0px;
+    padding-top: 6px;
+}
+.contenedor_principal .menu_lateral {
+    width: 40%;
+    background-color: #EC28E5;
+    height: 300px;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    float: left;
+    margin-bottom: 6px;
+    font-size: 40pt;
+}
+
+.contenedor_principal .publicacion {
+    width: 59%;
+    background-color: #93FF05;
+    float: right;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.contenedor_principal .publicacion .articulo1 {
+    width: 95%;
+    height: 47px;
+    background-color: #000000;
+    color: #FFFBFB;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    border-radius: 6px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.contenedor_principal .pie.de.pagina {
+    width: 100%;
+    height: 60px;
+    background-color: #0826D4;
+    clear: both;
+    margin-top: 5px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 21pt;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+.contenedor_principal .publicacion .articulo2 {
+    width: 45%;
+    /* [disabled]background-color: #FFFFFF; */
+    height: 210px;
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 17px;
+    border-radius: 5px;
+    float: left;
+    padding-top: 7px;
+}
+.contenedor_principal .publicacion .articulo3 {
+    width: 45%;
+    height: 210px;
+    /* [disabled]background-color: #FFFFFF; */
+    color: #000000;
+    text-align: center;
+    margin-top: 15px;
+    float: right;
+    margin-right: 17px;
+    border-radius: 5px;
+}
